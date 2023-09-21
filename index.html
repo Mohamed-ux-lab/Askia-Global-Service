@@ -25,45 +25,47 @@
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="#acceuil" class="text-decoration-none p-2 text-white nav-link">Acceuil</a>
+            <a href="#acceuil1" class="text-decoration-none p-2 text-white nav-link active">Acceuil</a>
           </li>
           <li class="nav-item">
-            <a href="#ServicesAgence" class="text-decoration-none p-2 text-white nav-link">Services de
+            <a href="#ServicesAgence1" class="text-decoration-none p-2 text-white nav-link">Services de
               l'agence</a>
           </li>
           <li class="nav-item">
-            <a href="#nousConnaitre" class="text-decoration-none p-2 text-white nav-link">Nous
+            <a href="#nousConnaitre1" class="text-decoration-none p-2 text-white nav-link">Nous
               connaitre</a>
           </li>
           <li class="nav-item">
-            <a href="#clientPartenaire" class="text-decoration-none p-2 text-white nav-link">Clients et
+            <a href="#clientPartenaire1" class="text-decoration-none p-2 text-white nav-link">Clients et
               partenaires</a>
           </li>
           <li class="nav-item">
-            <a href="#contactez-nous" class="text-decoration-none p-2 text-white nav-link">Contactez-Nous</a>
+            <a href="#contactez-nous1" class="text-decoration-none p-2 text-white nav-link">Contactez-Nous</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- ========== Start acceuil ========== -->
-  <section id="acceuil" class="shadow-lg">
-    <div class="carousel-slide">
+  <section id="acceuil" class="shadow-lg" data-bs-spy="scroll" data-bs-target="#nav">
+    <div class="carousel-slide" id="acceuil1">
       <div class="carousel-inner">
+
+
         <div class="carousel-item active">
           <div class="overlay"></div>
           <img src="./assets/img/hands-holding-cleaning-tools-solutions.jpg" class="d-block w-100" alt="..."
             height="500px">
           <div class="carousel-caption d-md-block">
             <p class="mx-auto fs-3 fw-bold">Bienvenue sur notre plateforme de service de satisfaction sur mesure.
-              Nous
-              sommes ravis de vous proposer une large gamme de prestation à la taille pour répondre à vos besoins
-              spécifiques.</p>
+              </p>
             <div class="containeur">
               <span class="textDefile fs-5 text-white p-1"></span>
             </div>
           </div>
         </div>
+
+        //Nous sommes ravis de vous proposer une large gamme de prestation à la taille pour répondre à besoins //spécifiques.
       </div>
     </div>
   </section>
@@ -71,9 +73,9 @@
 
   <!-- ========== Start Service de l'Agence ========== -->
 
-  <section id="ServicesAgence">
+  <section id="ServicesAgence" data-bs-spy="scroll" data-bs-target="#nav">
     <h1 class=" d-flex justify-content-center text-white fw-bold text-decoration-none py-5">Services de l'agence</h1>
-    <div class="container pb-4">
+    <div class="container pb-4" id="ServicesAgence1">
 
       <div class="row d-flex justify-content-center g-3">
 
@@ -148,9 +150,9 @@
   <!-- ========== End Service de l'Agence ========== -->
 
   <!-- ========== Start Nous connaître ========== -->
-  <section id="nousConnaitre">
+  <section id="nousConnaitre" data-bs-spy="scroll" data-bs-target="#nav">
     <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5">Notre Equipes</h1>
-    <div class="container-sm d-flex flex-wrap justify-content-center mx-auto px-4 py-5">
+    <div class="container-sm d-flex flex-wrap justify-content-center mx-auto px-4 py-5" id="nousConnaitre1">
       <div class="col d-flex flex-wrap justify-content-center">
         <div class="row">
           <div class="card m-2 shadow" style="width: 18rem; height: auto;">
@@ -204,9 +206,9 @@
   <!-- ========== End Nous connaître ========== -->
 
   <!-- ========== Start Nos clients et Partenaire ========== -->
-  <section id="clientPartenaire">
+  <section id="clientPartenaire" data-bs-spy="scroll" data-bs-target="#nav">
     <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos clients</h1>
-    <div class="container d-flex">
+    <div class="container d-flex" id="clientPartenaire1">
       <div class="container d-flex flex-wrap justify-content-evenly px-5 py-5" style="width: 70%;">
 
         <div class="card align-self-start">
@@ -275,7 +277,7 @@
     </div> -->
     </div>
     <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos partenaires</h1>
-    <div class="container d-flex">
+    <div class="container d-flex id="clientPartenaire1"">
       <div class="container d-flex flex-wrap justify-content-evenly px-5 py-5" style="width: 70%;">
 
         <div class="card align-self-start">
@@ -306,9 +308,9 @@
   <!-- ========== End Nos clients et Partenaire ========== -->
 
   <!-- ========== Start Contactez-nous ========== -->
-  <section id="contactez-nous">
+  <section id="contactez-nous" data-bs-spy="scroll" data-bs-target="#nav">
     <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5">Nous contacter</h1>
-    <div class="container shadow">
+    <div class="container shadow" id="contactez-nous1">
       <div class="row">
         <div class="mb-3">
           <label for="formgroupinput1" class="form-label">Prenom</label>

@@ -15,6 +15,18 @@
 
 #nav .nav-item a:hover {
     border-bottom: 2px solid #f9fbff !important;
+    background: rgba(255, 255, 255, 0.427)!important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#nav .nav-item a.active{
+    border-bottom: 2px solid #f9fbff !important;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.427)!important;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 /* #hero {
@@ -29,6 +41,11 @@
 #ServicesAgence {
     background: rgb(9, 38, 82);
     background: linear-gradient(131deg, rgb(0, 36, 89) 27%, rgba(255, 255, 255, 1) 95%);
+}
+
+#ServicesAgence .card:hover {
+    transform: scale(1.1);
+    background: rgb(9, 38, 82);
 }
 
 #clientPartenaire .card {
@@ -90,7 +107,6 @@
     transform: scale(1.1);
     background: rgb(9, 38, 82);
     color: #fff;
-
 }
 
 .containeur {
