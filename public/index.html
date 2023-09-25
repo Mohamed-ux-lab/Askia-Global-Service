@@ -5,12 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ibraski-Askia-Service</title>
-  <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/icons/all.css">
   <link rel="stylesheet" href="style.css">
-  <script src="./assets/icons/all.js"></script>
-  <script src="./assets/js/bootstrap.bundle.js"></script>
-  <script type="module" src="./index.js" defer></script>
+  <link rel="stylesheet" href="./lib/splide-4.1.3/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -58,14 +56,14 @@
             height="500px">
           <div class="carousel-caption d-md-block">
             <p class="mx-auto fs-3 fw-bold">Bienvenue sur notre plateforme de service de satisfaction sur mesure.
-              </p>
+            </p>
             <div class="containeur">
               <span class="textDefile fs-5 text-white p-1"></span>
             </div>
           </div>
         </div>
 
-        //Nous sommes ravis de vous proposer une large gamme de prestation à la taille pour répondre à besoins //spécifiques.
+        <!-- //Nous sommes ravis de vous proposer une large gamme de prestation à la taille pour répondre à besoins //spécifiques. -->
       </div>
     </div>
   </section>
@@ -77,7 +75,7 @@
     <h1 class=" d-flex justify-content-center text-white fw-bold text-decoration-none py-5">Services de l'agence</h1>
     <div class="container pb-4" id="ServicesAgence1">
 
-      <div class="row d-flex justify-content-center g-3">
+      <div class="row d-flex justify-content-center">
 
         <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;">
           <div class="card-body">
@@ -108,10 +106,10 @@
             <a href="#contactez-nous" class="btn btn-primary">Appeler nous</a>
           </div>
         </div>
-      </div>
 
 
-      <div class="row d-lfex justify-content-center">
+
+
 
         <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;">
           <div class="card-body">
@@ -151,48 +149,52 @@
 
   <!-- ========== Start Nous connaître ========== -->
   <section id="nousConnaitre" data-bs-spy="scroll" data-bs-target="#nav">
+
     <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5">Notre Equipes</h1>
-    <div class="container-sm d-flex flex-wrap justify-content-center mx-auto px-4 py-5" id="nousConnaitre1">
-      <div class="col d-flex flex-wrap justify-content-center">
-        <div class="row">
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+
+    <div class="container d-flex justify-content-center mx-auto px-4 py-5" id="nousConnaitre1">
+
+      <div class="col">
+        <div class="row d-flex justify-content-center">
+
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Aichata Konaré</h5>
               <p> Secrétaire / comptable </p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Ibrahim Almou</h5>
               <p>Directeur General</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Fatoumata Diakité</h5>
               <p>Directrice Commerciale</p>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+
+
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5> Mahamadou A Maiga</h5>
               <p>Conseil juridique</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Nouhou Alouseyni</h5>
               <p>Superviseur</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 18rem; height: auto;">
+          <div class="card m-2 shadow" style="width: 14rem;">
             <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Almami Traore</h5>
@@ -205,105 +207,95 @@
   </section>
   <!-- ========== End Nous connaître ========== -->
 
+
   <!-- ========== Start Nos clients et Partenaire ========== -->
   <section id="clientPartenaire" data-bs-spy="scroll" data-bs-target="#nav">
-    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos clients</h1>
-    <div class="container d-flex" id="clientPartenaire1">
-      <div class="container d-flex flex-wrap justify-content-evenly px-5 py-5" style="width: 70%;">
+    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos clients Ils nous font
+      confiance</h1>
 
-        <div class="card align-self-start">
-          <img src="./assets/img/GAPP.png" alt="" height="100px" width="150px">
-          <div class="card-title"> ONG GAPP-MALI</div>
-        </div>
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
 
-        <div class="card">
-          <img src="./assets/img/APROFEJ.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG APROFEJ</div>
-        </div>
+          <li class="splide__slide">
+            <img src="./assets/img/GAPP.png" alt="" width="50px" height="150px">
 
-        <div class="card">
-          <img src="./assets/img/AJCAD.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG AJCAD</div>
-        </div>
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/APROFEJ.png" alt="" width="50px" height="150px">
 
-        <div class="card">
-          <img src="./assets/img/AJAP.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG-AJAP</div>
-        </div>
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/AJCAD.png" alt="" width="50px" height="150px">
 
-        <div class="card">
-          <img src="./assets/img/DDS.png" alt="" height="100px" width="150px">
-          <div class="card-title"> DIARRA DIGITAL SOLUTION</div>
-        </div>
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/AJAP.png" alt="" width="50px" height="150px">
 
-      </div>
-      <div class="container d-flex align-items-center" style="width: 30%;">
-        <h1 class="fs-1 fw-bold">Ils nous font confiance</h1>
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/DDS.png" alt="" width="50px" height="150px">
+
+          </li>
+        </ul>
       </div>
     </div>
 
-    <!-- <div class="container d-flex align-items-center" style="width: 100%;">
-      <h1 class="fs-1 fw-bold">Ils nous font confiance</h1>
+    </div>
+    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos partenaires Ensemble pour
+      l'excellence</h1>
+
+    <div class="splide1" role="group" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+
+          <li class="splide__slide">
+            <img src="./assets/img/MALIPMEPMI.png" alt="" width="50px" height="150px">
+
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/FACEJ.png" alt="" width="50px" height="150px">
+
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/AJCAD.png" alt="" width="50px" height="150px">
+
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/CASA.png" alt="" width="50px" height="150px">
+
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/img/ROBOTMALI.png" alt="" width="50px" height="150px">
+
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div class="container d-block" id="clientPartenaire1">
+
+      <div class="card align-self-start">
+        <img src="./assets/img/MALIPMEPMI.png" alt="" height="100px" width="150px">
+      </div>
+
+      <div class="card">
+        <img src="./assets/img/FACEJ.png" alt="" height="100px" width="150px">
+      </div>
+
+      <div class="card">
+        <img src="./assets/img/AJCAD.png" alt="" height="100px" width="150px">
+      </div>
+
+      <div class="card">
+        <img src="./assets/img/CASA.png" alt="" height="100px" width="150px">
+      </div>
+
+      <div class="card">
+        <img src="./assets/img/ROBOTMALI.png" alt="" height="100px" width="150px">
+      </div>
+
     </div> -->
-    <!-- <div class="slider-container slider-1">
-      <div class="slider">
-
-        <div class="card">
-          <img src="./assets/img/GAPP.png" alt="" height="100px" width="150px">
-          <div class="card-title"> ONG GAPP-MALI</div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/APROFEJ.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG APROFEJ</div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/AJCAD.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG AJCAD</div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/AJAP.png" alt="" height="100px" width="150px">
-          <div class="card-title">ONG-AJAP</div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/DDS.png" alt="" height="100px" width="150px">
-          <div class="card-title"> DIARRA DIGITAL SOLUTION</div>
-        </div>
-
-      </div>
-    </div> -->
-    </div>
-    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5">Nos partenaires</h1>
-    <div class="container d-flex id="clientPartenaire1"">
-      <div class="container d-flex flex-wrap justify-content-evenly px-5 py-5" style="width: 70%;">
-
-        <div class="card align-self-start">
-          <img src="./assets/img/MALIPMEPMI.png" alt="" height="100px" width="150px">
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/FACEJ.png" alt="" height="100px" width="150px">
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/AJCAD.png" alt="" height="100px" width="150px">
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/CASA.png" alt="" height="100px" width="150px">
-        </div>
-
-        <div class="card">
-          <img src="./assets/img/ROBOTMALI.png" alt="" height="100px" width="150px">
-        </div>
-      </div>
-      <div class="container d-flex align-items-center border-start border-2" style="width: 30%;">
-        <h1 class="fs-1 fw-bold">Ensemble pour l'excellence</h1>
-      </div>
-    </div>
   </section>
   <!-- ========== End Nos clients et Partenaire ========== -->
 
@@ -354,6 +346,58 @@
     <p class="text-center text-decoration-none text-white">&copy; 2023</p>
   </footer>
   <!-- ========== End Footer ========== -->
+
+
+
+  <script src="./lib/splide-4.1.3/dist/js/splide.min.js"></script>
+  <script src="./assets/icons/all.js"></script>
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+  <script type="module" src="./index.js"></script>
+
+  <script>
+    let secondSplide = new Splide('.splide', {
+      perPage: 1,
+      perMove: 1,
+      type: 'loop',
+      width: '40%',
+      pagination: false,
+      arrows: false,
+      autoplay: true,
+      interval: 2000,
+      autoHeigth: true,
+      breakpoints: {
+        320: {
+
+        },
+        1024: {
+          width: '40%',
+          heigth: '100px'
+        }
+      }
+    });
+    secondSplide.mount();
+    let firstSplide = new Splide('.splide1', {
+      perPage: 1,
+      perMove: 1,
+      type: 'loop',
+      width: '40%',
+      pagination: false,
+      arrows: false,
+      autoplay: true,
+      interval: 2000,
+      autoHeigth: true,
+      breakpoints: {
+        320: {
+
+        },
+        1024: {
+          width: '40%',
+          heigth: '100px'
+        }
+      }
+    });
+    firstSplide.mount()
+  </script>
 </body>
 
 </html>

@@ -16,3 +16,4 @@ function afficherElement() {
     setTimeout(afficherElement, 2000)
 }
 afficherElement()
+

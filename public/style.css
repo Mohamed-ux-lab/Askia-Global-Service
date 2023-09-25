@@ -162,6 +162,13 @@
     /* flex-direction: row-reverse; */
 }
 
+li img{
+    width: 100%;
+}
+.splide {
+    margin: 0 auto;
+}
+
 /* @keyframes slider-1 {
     0%,
     20% {
