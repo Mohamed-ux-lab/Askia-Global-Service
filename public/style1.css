@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-primary: #6499E9;
+    --color-secondary: #9EDDFF;
+    --color-text: #A6F6FF;
+    --color-text-second: #BEFFF7;
+}
+
+headder {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    padding: 20px 0;
+    position: relative;
+    transition: all .3s ease-out 0s;
+}
+
+.navbar-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all .3s ease-out 0s;
+    padding: 0;
+}
+
+.hero-section {
+    padding-top: 90px;
+    position: relative;
+    height: 870px;
+    background: #d7dded;
+    display: flex;
+    align-items: center;
+}
+

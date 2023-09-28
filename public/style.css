@@ -1,6 +1,15 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+:root {
+    --color-primary: #6499E9;
+    --color-secondary: #9EDDFF;
+    --color-text: #A6F6FF;
+    --color-text-second: #BEFFF7;
 }
 
 /* .container-fluid a:hover{
@@ -9,24 +18,21 @@
 } */
 
 .navbar {
-    background: rgb(5, 75, 182);
-    background: linear-gradient(221deg, rgb(9, 85, 199) 2%, rgba(0, 0, 0, 1) 100%);
+    background-color: var(--color-primary);
+    transition: all;
 }
 
 #nav .nav-item a:hover {
     border-bottom: 2px solid #f9fbff !important;
-    background: rgba(255, 255, 255, 0.427)!important;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    font-weight: 700;
+    transition: .2s ease-in-out
 }
 
 #nav .nav-item a.active{
     border-bottom: 2px solid #f9fbff !important;
     color: #fff;
-    background: rgba(255, 255, 255, 0.427)!important;
-    /* border-radius: 10px; */
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    font-weight: 700;
+    transition: .2s ease-in-out
 }
 
 /* #hero {
@@ -39,8 +45,12 @@
 } */
 
 #ServicesAgence {
-    background: rgb(9, 38, 82);
-    background: linear-gradient(131deg, rgb(0, 36, 89) 27%, rgba(255, 255, 255, 1) 95%);
+    /* background: var(--color-primary);
+    background: linear-gradient(131deg, var(--color-primary) 27%, rgba(255, 255, 255, 1) 95%); */
+    background-image: url('./assets/img/wave-haikei.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #ServicesAgence .card:hover {
@@ -68,20 +78,21 @@
     margin: 0 auto !important;
 }
 
-#contactez-nous .container {
-    background: #fff;
-    width: 60%;
-    padding: 45px;
-    border-radius: 10px;
-    position: relative;
+@media screen and (max-width : 720px) {
+    #contactez-nous .container{
+        width: 60%!important;
+    }
 }
 
-#contactez-nous .container .btn {
-    width: 20%;
+@media (min-width: 992px){
+    .offset-lg-1{
+        margin-left: 0!important;
+    }
 }
 
-/* #contactez-nous .container {
-} */
+.lead {
+    font-size: 1rem!important;
+}
 
 #clientPartenaire .row {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -91,10 +102,12 @@
 }
 
 #footer {
-    /* background: rgb(0, 0, 0);
-    background: linear-gradient(185deg, rgba(0, 0, 0, 0.6280637254901961) 2%, rgba(13, 110, 253, 1) 100%); */
-    background: rgb(5, 75, 182);
-    background: linear-gradient(221deg, rgb(9, 85, 199) 2%, rgba(0, 0, 0, 1) 100%);
+    /* background-color: var(--color-primary); */
+    background-image: url('./assets/img/layered-waves-haikei.svg');
+    background-position-y: -32rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
 }
 
 .card {
@@ -105,18 +118,8 @@
 
 #nousConnaitre .card:hover {
     transform: scale(1.1);
-    background: rgb(9, 38, 82);
+    background: var(--color-primary);
     color: #fff;
-}
-
-.containeur {
-    height: 70px !important;
-}
-
-.textDefile {
-    display: inline-block;
-    padding-top: 10px;
-    border-bottom: 2px solid #213555;
 }
 
 .carousel-caption {
@@ -125,9 +128,8 @@
 
 .overlay {
     position: absolute;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
-    height: 500px;
+    background-color: rgba(0, 0, 0, 0.505);
+    height: 50vh;
     width: 100%;
 }
 
@@ -137,6 +139,23 @@
     overflow: hidden;
     border: 1px solid #f1f1f1;
 
+}
+
+.hero-acceuil {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/img/hands-holding-cleaning-tools-solutions.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-acceuil h1{
+    font-size: 2.5rem!important;
 }
 
 #clientPartenaire .slider-1 div.card{
