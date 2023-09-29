@@ -77,7 +77,9 @@
 
   <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5" id="acceuil1">
     <div class="col d-flex flex-column align-items-start gap-2">
-      <img src="./assets/img/PourquoiNous.jpg" alt="" width="600" height="500">
+      <div class="img">
+        <img src="./assets/img/PourquoiNous.jpg" alt="" width="600" height="500">
+      </div>
       <h2 class="fw-bold text-body-emphasis">Pourquoi Nous ?</h2>
       <p class="text-body-secondary">Nous mettons à votre entière disposition des services variés et de qualité pour
         nettoyer vos services publics et prives ainsi que vos maisons respectives.</p>
@@ -147,7 +149,8 @@
   <section class="hero-acceuil" data-bs-spy="scroll" data-bs-target="#nav">
     <div class="overlay"></div>
     <div>
-      <h1 class=" d-flex justify-content-center text-white fw-bold text-decoration-none py-5 fs-1" id="ServicesAgence1">Services de l'agence
+      <h1 class=" d-flex justify-content-center text-white fw-bold text-decoration-none py-5 fs-1" id="ServicesAgence1">
+        Services de l'agence
       </h1>
     </div>
   </section>
@@ -168,7 +171,7 @@
           </div>
         </div>
 
-        <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;"id="ServicesAgence1">
+        <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;" id="ServicesAgence1">
           <div class="card-body">
             <img src="./assets/img/serpilliere.png" alt="" height="50px" width="50px">
             <h5 class="card-title">Dépoussiérage</h5>
@@ -178,7 +181,7 @@
           </div>
         </div>
 
-        <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;"id="ServicesAgence1">
+        <div class="card mb-3 shadow p-3 bg-body-tertiary rounded" style="width: 18rem;" id="ServicesAgence1">
           <div class="card-body">
             <img src="./assets/img/desinfection.png" alt="" height="50px" width="50px">
             <h5 class="card-title">Désinfection</h5>
@@ -229,97 +232,65 @@
   <!-- ========== End Service de l'Agence ========== -->
 
 
-
-  <div class="container">
-    <h1 class="text-center">Notre Équipe</h1>
-
-    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 1">
-                <div class="carousel-caption">
-                    <h3>Membre de l'équipe 1</h3>
-                    <p>Description du membre 1.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
-                <div class="carousel-caption">
-                    <h3>Membre de l'équipe 2</h3>
-                    <p>Description du membre 2.</p>
-                </div>
-            </div>
-            <!-- Ajoutez davantage de membres de l'équipe ici -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
-
-
-
   <!-- ========== Start Nous connaître ========== -->
   <section id="nousConnaitre" data-bs-spy="scroll" data-bs-target="#nav">
+    <div class="container my-4">
+      <h1 class="text-center fw-bold">Notre Équipe</h1>
 
-    <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5">Notre Equipes</h1>
-
-    <div class="container d-flex justify-content-center mx-auto px-4 py-5" id="nousConnaitre1">
-
-      <div class="col">
-        <div class="row d-flex justify-content-center">
-
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Aichata Konaré</h5>
-              <p> Secrétaire / comptable </p>
+      <div id="teamCarousel" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 1">
+            <div class="carousel-caption">
+              <h3>Aichata Konaré</h3>
+              <p>Secrétaire / comptable</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Ibrahim Almou</h5>
+          <div class="carousel-item">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
+            <div class="carousel-caption">
+              <h3>Ibrahim Almou</h3>
               <p>Directeur General</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Fatoumata Diakité</h5>
+          <div class="carousel-item">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
+            <div class="carousel-caption">
+              <h3>Fatoumata Diakité</h3>
               <p>Directrice Commerciale</p>
             </div>
           </div>
-
-
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5> Mahamadou A Maiga</h5>
+          <div class="carousel-item">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
+            <div class="carousel-caption">
+              <h3>Mahamadou A Maiga</h3>
               <p>Conseil juridique</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Nouhou Alouseyni</h5>
+          <div class="carousel-item">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
+            <div class="carousel-caption">
+              <h3>Nouhou Alouseyni</h3>
               <p>Superviseur</p>
             </div>
           </div>
-          <div class="card m-2 shadow" style="width: 14rem;">
-            <img src="https://placehold.co/600x600" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Almami Traore</h5>
+          <div class="carousel-item">
+            <img src="https://placehold.co/400x600" class="d-block mx-auto img-fluid" alt="Membre de l'équipe 2">
+            <div class="carousel-caption">
+              <h3>Almami Traore</h3>
               <p>Superviseur</p>
             </div>
           </div>
+          <!-- Ajoutez davantage de membres de l'équipe ici -->
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </section>
@@ -328,7 +299,8 @@
 
   <!-- ========== Start Nos clients et Partenaire ========== -->
   <section id="clientPartenaire" data-bs-spy="scroll" data-bs-target="#nav">
-    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5" id="clientPartenaire1">Nos clients Ils nous font
+    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5" id="clientPartenaire1">Ils
+      nous font
       confiance</h1>
 
     <div class="splide" role="group" aria-label="Splide Basic HTML Example" id="clientPartenaire1">
@@ -336,23 +308,23 @@
         <ul class="splide__list">
 
           <li class="splide__slide">
-            <img src="./assets/img/GAPP.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/GAPP.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/APROFEJ.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/APROFEJ.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/AJCAD.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/AJCAD.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/AJAP.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/AJAP.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/DDS.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/DDS.png" alt="" width="50px">
 
           </li>
         </ul>
@@ -360,91 +332,69 @@
     </div>
 
     </div>
-    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5" id="clientPartenaire1">Nos partenaires Ensemble pour
-      l'excellence</h1>
 
-    <div id="splide" role="group" aria-label="Splide Basic HTML Example" id="clientPartenaire1">
+    <h1 class="d-flex justify-content-center text-balck fw-bold text-decoration-none py-5" id="clientPartenaire1">
+      Nos partenaires
+    </h1>
+
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example" id="clientPartenaire1">
       <div class="splide__track">
         <ul class="splide__list">
 
           <li class="splide__slide">
-            <img src="./assets/img/MALIPMEPMI.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/MALIPMEPMI.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/FACEJ.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/FACEJ.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/AJCAD.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/AJCAD.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/CASA.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/CASA.png" alt="" width="50px">
 
           </li>
           <li class="splide__slide">
-            <img src="./assets/img/ROBOTMALI.png" alt="" width="50px" height="150px">
+            <img src="./assets/img/ROBOTMALI.png" alt="" width="50px">
 
           </li>
         </ul>
       </div>
     </div>
 
-    <!-- <div class="container d-block" id="clientPartenaire1">
-
-      <div class="card align-self-start">
-        <img src="./assets/img/MALIPMEPMI.png" alt="" height="100px" width="150px">
-      </div>
-
-      <div class="card">
-        <img src="./assets/img/FACEJ.png" alt="" height="100px" width="150px">
-      </div>
-
-      <div class="card">
-        <img src="./assets/img/AJCAD.png" alt="" height="100px" width="150px">
-      </div>
-
-      <div class="card">
-        <img src="./assets/img/CASA.png" alt="" height="100px" width="150px">
-      </div>
-
-      <div class="card">
-        <img src="./assets/img/ROBOTMALI.png" alt="" height="100px" width="150px">
-      </div>
-
-    </div> -->
   </section>
   <!-- ========== End Nos clients et Partenaire ========== -->
 
   <!-- ========== Start Contactez-nous ========== -->
   <section id="contactez-nous" data-bs-spy="scroll" data-bs-target="#nav">
-    <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5" id="contactez-nous1">Nous contacter</h1>
+    <h1 class="d-flex justify-content-center text-black fw-bold text-decoration-none py-5" id="contactez-nous1">Nous
+      contacter</h1>
 
-    <div class="container-lg mx-1 shadow" id="contactez-nous1">
-      <div class="row">
-        <div class="mb-3">
-          <label for="formgroupinput1" class="form-label">Prenom</label>
-          <input type="text" class="form-control" id="formgroupinput1" placeholder="Entrez votre prenom">
-        </div>
-        <div class="mb-3">
-          <label for="formgroupinput2" class="form-label">Nom</label>
-          <input type="text" class="form-control" id="formgroupinput2" placeholder="Entrez votre nom">
-        </div>
-        <div class="mb-3">
-          <label for="formgroupinput3" class="form-label">Téléphone</label>
-          <input type="tel" class="form-control" id="formgroupinput3" placeholder="Entrez votre numéro">
-        </div>
-        <div class="mb-3">
-          <label for="formgroupinput4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="formgroupinput4" placeholder="votreemail@domain.com">
-        </div>
-        <div class="mb-3">
-          <label for="formgroupinput5" class="form-label">Votre demande</label>
-          <textarea class="form-control" id="formgroupinput5" rows="3"></textarea>
-        </div>
-        <button class="btn btn-primary">Envoyer</button>
+    <div class="container" id="contactez-nous1">
+      <div class="mb-3">
+        <label for="formgroupinput1" class="form-label">Prenom</label>
+        <input type="text" class="form-control form-control-sm" id="formgroupinput1" placeholder="Entrez votre prenom">
       </div>
+      <div class="mb-3">
+        <label for="formgroupinput2" class="form-label">Nom</label>
+        <input type="text" class="form-control form-control-sm" id="formgroupinput2" placeholder="Entrez votre nom">
+      </div>
+      <div class="mb-3">
+        <label for="formgroupinput3" class="form-label">Téléphone</label>
+        <input type="tel" class="form-control form-control-sm" id="formgroupinput3" placeholder="Entrez votre numéro">
+      </div>
+      <div class="mb-3">
+        <label for="formgroupinput4" class="form-label">Email</label>
+        <input type="email" class="form-control form-control-sm" id="formgroupinput4" placeholder="votreemail@domain.com">
+      </div>
+      <div class="mb-3">
+        <label for="formgroupinput5" class="form-label">Votre demande</label>
+        <textarea class="form-control form-control-sm" id="formgroupinput5" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary">Envoyer</button>
     </div>
   </section>
   <!-- ========== End Contactez-nous ========== -->
@@ -474,46 +424,30 @@
   <script type="module" src="./index.js"></script>
 
   <script>
-    new Splide('.splide', {
-      perPage: 1,
-      perMove: 1,
-      type: 'loop',
-      width: '40%',
-      pagination: false,
-      arrows: false,
-      autoplay: true,
-      interval: 2000,
-      autoHeigth: true,
-      breakpoints: {
-        320: {
+    let elms = document.getElementsByClassName('splide');
 
-        },
-        1024: {
-          width: '40%',
-          heigth: '100px'
-        }
-      }
-    }).mount();
-    new Splide('.splide1', {
-      perPage: 1,
-      perMove: 1,
-      type: 'loop',
-      width: '40%',
-      pagination: false,
-      arrows: false,
-      autoplay: true,
-      interval: 2000,
-      autoHeigth: true,
-      breakpoints: {
-        320: {
+    for (let i = 0; i < elms.length; i++) {
+      new Splide(elms[i], {
+        perPage: 1,
+        perMove: 1,
+        type: 'loop',
+        width: '40%',
+        pagination: false,
+        arrows: false,
+        autoplay: true,
+        interval: 2000,
+        autoHeigth: true,
+        breakpoints: {
+          320: {
 
-        },
-        1024: {
-          width: '40%',
-          heigth: '100px'
+          },
+          1024: {
+            width: '30%',
+            heigth: '100px'
+          }
         }
-      }
-    }).mount()
+      }).mount();
+    }
   </script>
 </body>
 
