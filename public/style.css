@@ -254,16 +254,6 @@ li img {
     }
 }
 
-@media (min-width: 992px) {
-
-    #contactez-nous .container,
-    #contactez-nous .container-lg,
-    #contactez-nous .container-md,
-    #contactez-nous .container-sm {
-        /* max-width: 0!important;  */
-    }
-}
-
 @media screen and (max-width: 720px) {
     #contactez-nous .container {
         width: 100% !important;
