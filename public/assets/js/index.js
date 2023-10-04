@@ -1,4 +1,5 @@
 import{ scrollSpy } from '../../lib/ScrollSpy.js'
+import '../css/style.css'
 
 //On appelle la fonction ScrollSpy de la librairie
 scrollSpy()
