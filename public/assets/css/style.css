@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -23,16 +25,20 @@
 }
 
 #nav .nav-item a:hover {
-    border-bottom: 2px solid #f9fbff !important;
-    font-weight: 700;
-    transition: .2s ease-in-out
+    border-bottom: 1px solid #f9fbff !important;
+    /* font-weight: 600; */
+    transition: .2s ease-in-out;
 }
 
 #nav .nav-item a.active {
     border-bottom: 2px solid #f9fbff !important;
     color: #fff;
     font-weight: 700;
-    transition: .2s ease-in-out
+    transition: .3s ease-in-out
+}
+
+.transition {
+    height: 50vh;
 }
 
 /* #hero {
@@ -76,6 +82,7 @@
     padding: 0 20px;
     padding-bottom: 20px;
     margin: 0 auto !important;
+    user-select: text;
 }
 
 @media screen and (max-width : 720px) {
